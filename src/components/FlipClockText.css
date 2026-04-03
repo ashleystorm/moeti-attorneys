@@ -1,0 +1,37 @@
+.flip-clock-container {
+  display: inline;
+}
+
+.flip-clock-char {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(16px) rotateX(-60deg);
+  transform-origin: center bottom;
+  transform-style: preserve-3d;
+  will-change: transform, opacity;
+}
+
+.flip-clock-char.space {
+  width: 0.25em;
+}
+
+.flip-clock-char.animate {
+  animation: flipClockReveal var(--flip-duration, 0.6s) cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes flipClockReveal {
+  0% {
+    opacity: 0;
+    transform: translateY(16px) rotateX(-60deg);
+    filter: blur(2px);
+  }
+  40% {
+    opacity: 0.7;
+    filter: blur(1px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) rotateX(0deg);
+    filter: blur(0);
+  }
+}
