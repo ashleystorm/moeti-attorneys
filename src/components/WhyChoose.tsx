@@ -49,7 +49,7 @@ const WhyChoose = () => {
           {...getMotionProps()}
         >
           <h2 className="font-heading text-2xl font-bold text-foreground sm:text-3xl">
-            Trusted Legal Counsel Since 2020
+            Trusted Legal Counsel Since 2018
           </h2>
           <div className="mx-auto mt-8">
             <CTAButton href="#team">Meet Our Attorneys</CTAButton>
@@ -65,7 +65,7 @@ const WhyChoose = () => {
             <span>Our Commitment</span>
           </div>
           <h2 className="font-heading text-3xl font-bold text-foreground sm:text-4xl md:text-5xl">
-            Why Choose Sotshintshi Attorneys
+            Why Choose Moeti Kanyane Attorneys
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
             We deliver exceptional legal services through strategic thinking, rigorous preparation, and genuine client care.

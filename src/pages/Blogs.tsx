@@ -90,7 +90,7 @@ const Blogs = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            Expert analysis, legal updates, and strategic perspectives from Sotshintshi Attorneys.
+            Expert analysis, legal updates, and strategic perspectives from Moeti Kanyane Attorneys.
           </motion.p>
         </div>
       </section>

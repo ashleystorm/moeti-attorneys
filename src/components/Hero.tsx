@@ -3,10 +3,11 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Scale } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-dentist.jpg";
-import logoImage from "@/assets/compressed-images/sotshintshi_logo.png";
+import logoImage from "@/assets/compressed-images/moeti-logo-bg-removed.png";
+import heroBgImage from "@/assets/compressed-images/moeti-attorneys-logo-upscaled-hero-bg.png";
 
 const headlines = [
-  "5+ Years of Excellence",
+  "7+ Years of Excellence",
   "215+ Cases Won",
 ];
 
@@ -32,7 +33,7 @@ const Hero = () => {
       <div className="absolute inset-0 lg:hidden">
         <img
           src={heroImage}
-          alt="Sotshintshi Attorneys team"
+          alt="Moeti Kanyane Attorneys team"
           className="h-full w-full object-cover object-top"
           loading="eager"
         />
@@ -42,17 +43,26 @@ const Hero = () => {
 
       {/* Desktop: split layout */}
       <div className="hidden lg:absolute lg:inset-0 lg:grid lg:grid-cols-2">
-        {/* Left dark panel - consistently dark regardless of theme */}
-        <div className="bg-gradient-to-br from-[hsl(0,0%,8%)] via-[hsl(0,0%,18%)] to-[hsl(0,0%,8%)]" />
+        {/* Left panel - brand background image */}
+        <div className="relative">
+          <img
+            src={heroBgImage}
+            alt=""
+            aria-hidden="true"
+            className="h-full w-full object-cover"
+            loading="eager"
+          />
+          <div className="absolute inset-0 bg-black/15" />
+        </div>
         {/* Right image panel */}
         <div className="relative">
           <img
             src={heroImage}
-            alt="Sotshintshi Attorneys team"
+            alt="Moeti Kanyane Attorneys team"
             className="h-full w-full object-cover object-top"
             loading="eager"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-[hsl(0,0%,8%)]/80 via-transparent to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-transparent to-transparent" />
         </div>
       </div>
 
@@ -69,16 +79,16 @@ const Hero = () => {
             >
               <img
                 src={logoImage}
-                alt="Sotshintshi Attorneys Logo"
-                className="h-14 w-auto flex-shrink-0 sm:h-18 md:h-20"
+                alt="Moeti Kanyane Attorneys Logo"
+                className="h-20 w-auto flex-shrink-0 sm:h-24 md:h-28 lg:h-auto lg:w-72"
               />
             </motion.div>
 
             {/* Eyebrow */}
-            <div className="eyebrow-badge mb-6 inline-flex border-law-gold/30 bg-law-gold/10">
+            {/* <div className="eyebrow-badge mb-6 inline-flex border-law-gold/30 bg-law-gold/10">
               <Scale className="h-4 w-4 text-accent" />
               <span className="text-white/90">Premier Legal Counsel</span>
-            </div>
+            </div> */}
 
             {/* Animated headlines */}
             <div className="mb-6 h-[4.5rem] sm:h-[5.5rem] md:h-[7rem]">
@@ -86,7 +96,7 @@ const Hero = () => {
                 {!sequenceComplete ? (
                   <motion.h1
                     key={currentIndex}
-                    className="font-heading text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl"
+                    className="font-heading text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl lg:text-black"
                     initial={{ opacity: 0, y: 30, filter: "blur(8px)" }}
                     animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
                     exit={{ opacity: 0, y: -20, filter: "blur(6px)" }}
@@ -96,7 +106,7 @@ const Hero = () => {
                   </motion.h1>
                 ) : (
                   <motion.h1
-                    className="font-heading text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl"
+                    className="font-heading text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl lg:text-black"
                     initial={{ opacity: 0, y: 20, filter: "blur(6px)" }}
                     animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
                     transition={{ duration: 0.6 }}
@@ -111,12 +121,12 @@ const Hero = () => {
 
             {/* Subtext */}
             <motion.p
-              className="mb-10 max-w-lg text-base leading-relaxed text-white/80 sm:text-lg"
+              className="mb-10 max-w-lg text-base leading-relaxed text-white/80 sm:text-lg lg:text-black/80"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.5 }}
             >
-              A Black-owned law firm established in 2020, delivering strategic legal
+              A Black-owned law firm established in 2018, delivering strategic legal
               counsel rooted in excellence, integrity, and community.
             </motion.p>
 

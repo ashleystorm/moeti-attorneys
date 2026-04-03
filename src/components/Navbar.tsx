@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { motion, AnimatePresence } from "framer-motion";
 import FlipClockText from "@/components/FlipClockText";
 import { Sparkles, ChevronDown } from "lucide-react";
-import logoImage from "@/assets/compressed-images/sotshintshi_favicon_S.png";
+import logoImage from "@/assets/compressed-images/moeti-favicon-bg-removed.png";
 
 const navItems = [
   { label: "Practice Areas", href: "#treatments" },
@@ -110,10 +110,10 @@ const Navbar = ({ onChatOpen }: { onChatOpen?: () => void }) => {
             e.preventDefault(); 
             handleNavClick("#"); 
           }}
-          className="flex items-center gap-2 font-heading text-base lg:text-lg font-bold text-foreground whitespace-nowrap tracking-wide"
+          className="flex items-center gap-2 font-heading text-xs sm:text-base lg:text-lg font-bold text-foreground whitespace-nowrap tracking-wide"
         >
           <img src={logoImage} alt="" aria-hidden="true" className="hidden lg:block h-7 w-auto flex-shrink-0" />
-          SOTSHINTSHI ATTORNEYS
+          MOETI KANYANE ATTORNEYS
         </a>
 
         {/* Desktop menu items */}

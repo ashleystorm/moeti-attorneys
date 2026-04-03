@@ -233,8 +233,8 @@ const CTASection = () => {
                   </div>
                 )}
                 <iframe
-                  title="Sotshintshi Attorneys Location"
-                  src="https://maps.google.com/maps?q=303+Eastwood+St,+Arcadia,+Pretoria,+0001,+South+Africa&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                  title="Moeti Kanyane Attorneys Location"
+                  src="https://maps.google.com/maps?q=Second+Floor,+Building+B,+Westend+Office+Park,+250+Hall+St,+Die+Hoewes,+Centurion,+0046&t=&z=15&ie=UTF8&iwloc=&output=embed"
                   width="100%"
                   height="280"
                   style={{ border: 0 }}
@@ -245,12 +245,12 @@ const CTASection = () => {
                 />
               </div>
               <a
-                href="https://www.google.com/maps/search/?api=1&query=303+Eastwood+St,+Arcadia,+Pretoria,+0001"
+                href="https://www.google.com/maps/search/?api=1&query=Westend+Office+Park,+250+Hall+St,+Die+Hoewes,+Centurion,+0046"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-2 inline-flex items-center gap-1 text-xs text-accent hover:text-accent/80 transition-colors link-underline"
               >
-                303 Eastwood St, Arcadia, Pretoria, 0001 →
+                Second Floor, Building B, Westend Office Park, 250 Hall St, Die Hoewes, Centurion, 0046 →
               </a>
             </div>
           </div>

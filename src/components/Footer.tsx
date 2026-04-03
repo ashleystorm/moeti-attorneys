@@ -140,7 +140,7 @@ const Footer = () => {
 
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-white/20 pt-8 md:flex-row">
           <p className="text-sm text-white/50">
-            © 2025 Sotshintshi Attorneys. All rights reserved.
+            © 2025 Moeti Kanyane Attorneys. All rights reserved.
           </p>
           <a href="#" className="text-sm text-white/50 transition-colors hover:text-white/80">
             Privacy Policy

@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 import { Users } from "lucide-react";
 import teamDirector from "@/assets/compressed-images/sotshintshi-attorneys-director.png";
-import firmLogo from "@/assets/compressed-images/sotshintshi_logo.png";
+import firmLogo from "@/assets/compressed-images/moeti-logo-bg-removed.png";
 
 const director = {
-  name: "Mncedi Sotshintshi",
+  name: "Moeti Kanyane",
   role: "Director",
-  specialization: "Litigation, Personal Injuries (Road Accident Fund), Family Law",
+  specialization: "Administrative Law, Regulatory & Compliance",
   image: teamDirector,
 };
 
@@ -39,7 +39,7 @@ const TeamCarousel = () => {
             <div className="relative aspect-[3/4] overflow-hidden">
               <img src={director.image} alt={director.name} className="h-full w-full object-cover" loading="lazy" />
               <div className="absolute top-2.5 left-2.5">
-                <img src={firmLogo} alt="Sotshintshi Attorneys" className="h-6 w-auto opacity-75 drop-shadow-md" />
+                <img src={firmLogo} alt="Moeti Kanyane Attorneys" className="h-6 w-auto opacity-75 drop-shadow-md" />
               </div>
             </div>
             <div className="p-5">

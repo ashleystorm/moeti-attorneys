@@ -20,9 +20,9 @@ export interface OperatingHours {
 }
 
 export class LuminousSmileReviews {
-  static readonly businessName = "Sotshintshi Attorneys";
+  static readonly businessName = "Moeti Kanyane Attorneys";
   static readonly address =
-    "303 Eastwood St, Arcadia, Pretoria, 0001, South Africa";
+    "Second Floor, Building B, Westend Office Park, 250 Hall St, Die Hoewes, Centurion, 0046";
   static readonly averageRating = 4.8;
   static readonly reviewCount = 24;
 
@@ -45,7 +45,7 @@ export class LuminousSmileReviews {
       rating: 5,
       relativeTimeDescription: "2 months ago",
       text:
-        "Sotshintshi Attorneys handled my commercial dispute with exceptional professionalism. " +
+        "Moeti Kanyane Attorneys handled my commercial dispute with exceptional professionalism. " +
         "Their strategic approach saved our company significant losses. Highly recommend for any " +
         "business litigation matter.",
     },
@@ -58,7 +58,7 @@ export class LuminousSmileReviews {
       relativeTimeDescription: "4 months ago",
       text:
         "I was going through a difficult divorce and needed someone I could trust. The team at " +
-        "Sotshintshi Attorneys were compassionate yet assertive, ensuring the best outcome for " +
+        "Moeti Kanyane Attorneys were compassionate yet assertive, ensuring the best outcome for " +
         "my children and me. Outstanding family law representation.",
     },
     {
@@ -82,7 +82,7 @@ export class LuminousSmileReviews {
       rating: 5,
       relativeTimeDescription: "6 months ago",
       text:
-        "After a workplace injury, I didn't know where to turn. Sotshintshi Attorneys took my case " +
+        "After a workplace injury, I didn't know where to turn. Moeti Kanyane Attorneys took my case " +
         "on and secured a settlement that exceeded my expectations. Professional, empathetic, and " +
         "relentless in pursuing justice.",
     },
@@ -107,7 +107,7 @@ export class LuminousSmileReviews {
       rating: 5,
       relativeTimeDescription: "1 year ago",
       text:
-        "From initial consultation to final resolution, the experience with Sotshintshi Attorneys " +
+        "From initial consultation to final resolution, the experience with Moeti Kanyane Attorneys " +
         "was first-class. They kept me informed at every stage and their legal knowledge is " +
         "truly exceptional. Would not hesitate to use them again.",
     },
@@ -145,7 +145,7 @@ export class LuminousSmileReviews {
       rating: 5,
       relativeTimeDescription: "2 months ago",
       text:
-        "Sotshintshi Attorneys represented our company in a complex regulatory compliance matter. " +
+        "Moeti Kanyane Attorneys represented our company in a complex regulatory compliance matter. " +
         "Their deep understanding of South African law and commercial acumen made all the difference. " +
         "A top-tier firm in Pretoria.",
     },

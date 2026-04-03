@@ -23,46 +23,46 @@
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 8%;
 
-    --primary: 0 0% 10%;
-    --primary-foreground: 0 0% 98%;
+    --primary: 144 46% 20%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 40 20% 95%;
-    --secondary-foreground: 0 0% 15%;
+    --secondary: 150 30% 94%;
+    --secondary-foreground: 144 46% 20%;
 
-    --muted: 0 0% 94%;
-    --muted-foreground: 0 0% 40%;
+    --muted: 150 30% 94%;
+    --muted-foreground: 152 32% 32%;
 
-    --accent: 43 72% 52%;
-    --accent-foreground: 0 0% 5%;
+    --accent: 180 100% 24%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 0 0% 88%;
-    --input: 0 0% 88%;
-    --ring: 43 72% 52%;
+    --border: 149 30% 75%;
+    --input: 149 30% 75%;
+    --ring: 180 100% 24%;
 
     --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 0 0% 26%;
-    --sidebar-primary: 0 0% 10%;
-    --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 0 0% 96%;
-    --sidebar-accent-foreground: 0 0% 10%;
+    --sidebar-primary: 144 46% 20%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 147 40% 94%;
+    --sidebar-accent-foreground: 144 46% 20%;
     --sidebar-border: 0 0% 91%;
-    --sidebar-ring: 43 72% 52%;
+    --sidebar-ring: 180 100% 24%;
 
     /* Custom law firm tokens */
-    --law-black: 0 0% 8%;
-    --law-charcoal: 0 0% 18%;
-    --law-grey: 0 0% 40%;
-    --law-silver: 0 0% 88%;
+    --law-black: 144 46% 20%;
+    --law-charcoal: 152 52% 24%;
+    --law-grey: 150 30% 50%;
+    --law-silver: 149 30% 75%;
     --law-cream: 40 20% 97%;
-    --law-gold: 43 72% 52%;
-    --law-gold-light: 43 60% 70%;
+    --law-gold: 180 100% 24%;
+    --law-gold-light: 157 30% 52%;
     --gradient-hero: linear-gradient(135deg, hsl(40 20% 97%) 0%, hsl(40 15% 95%) 50%, hsl(40 20% 97%) 100%);
-    --gradient-cta: linear-gradient(135deg, hsl(0 0% 10%) 0%, hsl(0 0% 18%) 100%);
+    --gradient-cta: linear-gradient(135deg, hsl(144 46% 20%) 0%, hsl(152 52% 24%) 100%);
     --gradient-card: linear-gradient(180deg, hsl(40 20% 98%) 0%, hsl(0 0% 100%) 100%);
     --shadow-card: 0 4px 20px -4px hsl(0 0% 0% / 0.06);
     --shadow-card-hover: 0 12px 32px -8px hsl(0 0% 0% / 0.12);
@@ -82,43 +82,43 @@
     --popover: 0 0% 11%;
     --popover-foreground: 0 0% 92%;
 
-    --primary: 0 0% 92%;
-    --primary-foreground: 0 0% 7%;
+    --primary: 153 35% 80%;
+    --primary-foreground: 144 46% 10%;
 
-    --secondary: 0 0% 16%;
-    --secondary-foreground: 0 0% 92%;
+    --secondary: 150 20% 16%;
+    --secondary-foreground: 153 35% 80%;
 
-    --muted: 0 0% 18%;
-    --muted-foreground: 0 0% 60%;
+    --muted: 150 15% 18%;
+    --muted-foreground: 150 20% 55%;
 
-    --accent: 43 72% 52%;
-    --accent-foreground: 0 0% 5%;
+    --accent: 180 100% 24%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 0 0% 20%;
-    --input: 0 0% 20%;
-    --ring: 43 72% 52%;
+    --border: 150 15% 22%;
+    --input: 150 15% 22%;
+    --ring: 180 100% 24%;
 
     --sidebar-background: 0 0% 9%;
     --sidebar-foreground: 0 0% 80%;
-    --sidebar-primary: 0 0% 92%;
-    --sidebar-primary-foreground: 0 0% 7%;
-    --sidebar-accent: 0 0% 14%;
-    --sidebar-accent-foreground: 0 0% 92%;
+    --sidebar-primary: 153 35% 80%;
+    --sidebar-primary-foreground: 144 46% 10%;
+    --sidebar-accent: 150 15% 14%;
+    --sidebar-accent-foreground: 153 35% 80%;
     --sidebar-border: 0 0% 18%;
-    --sidebar-ring: 43 72% 52%;
+    --sidebar-ring: 180 100% 24%;
 
-    --law-black: 0 0% 92%;
-    --law-charcoal: 0 0% 80%;
-    --law-grey: 0 0% 60%;
-    --law-silver: 0 0% 22%;
+    --law-black: 153 35% 80%;
+    --law-charcoal: 153 30% 65%;
+    --law-grey: 150 20% 55%;
+    --law-silver: 150 15% 22%;
     --law-cream: 0 0% 12%;
-    --law-gold: 43 72% 52%;
-    --law-gold-light: 43 60% 70%;
+    --law-gold: 180 100% 24%;
+    --law-gold-light: 157 30% 52%;
     --gradient-hero: linear-gradient(135deg, hsl(0 0% 8%) 0%, hsl(0 0% 11%) 50%, hsl(0 0% 8%) 100%);
-    --gradient-cta: linear-gradient(135deg, hsl(0 0% 10%) 0%, hsl(0 0% 16%) 100%);
+    --gradient-cta: linear-gradient(135deg, hsl(144 46% 12%) 0%, hsl(152 30% 16%) 100%);
     --gradient-card: linear-gradient(180deg, hsl(0 0% 11%) 0%, hsl(0 0% 13%) 100%);
     --shadow-card: 0 4px 20px -4px hsl(0 0% 0% / 0.3);
     --shadow-card-hover: 0 12px 32px -8px hsl(0 0% 0% / 0.4);
@@ -286,7 +286,7 @@
 
   .dark .liquid-glass-close:hover {
     background: hsla(0, 0%, 100%, 0.15);
-    box-shadow: 0 0 12px hsla(43, 72%, 52%, 0.2);
+    box-shadow: 0 0 12px hsla(180, 100%, 24%, 0.2);
   }
 
   .dark .ai-typing-dot {
@@ -337,7 +337,7 @@
   .liquid-glass-bubble-user {
     background: linear-gradient(135deg, hsla(0, 0%, 10%, 0.9), hsla(0, 0%, 18%, 0.9));
     color: white;
-    border: 1px solid hsla(43, 72%, 52%, 0.2);
+    border: 1px solid hsla(180, 100%, 24%, 0.2);
     box-shadow: 0 2px 8px -2px hsla(0, 0%, 0%, 0.2);
   }
 
@@ -348,7 +348,7 @@
 
   .liquid-glass-close:hover {
     background: hsla(0, 0%, 100%, 0.5);
-    box-shadow: 0 0 12px hsla(43, 72%, 52%, 0.15);
+    box-shadow: 0 0 12px hsla(180, 100%, 24%, 0.15);
   }
 
   .ai-typing-dot {

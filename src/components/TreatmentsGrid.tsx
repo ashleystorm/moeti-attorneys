@@ -7,8 +7,8 @@ import imgEstatePlanning from "@/assets/compressed-images/pexels-estate-planning
 
 const practiceAreas = [
   {
-    tag: "Personal Injury",
-    title: "Personal Injury Claims (RAF)",
+    tag: "Administrative Law",
+    title: "Administrative Law",
     image: imgPersonalInjury,
   },
   {
@@ -17,13 +17,13 @@ const practiceAreas = [
     image: imgFamilyLaw,
   },
   {
-    tag: "Litigation",
-    title: "Litigation",
+    tag: "Regulatory",
+    title: "Regulatory",
     image: imgLitigation,
   },
   {
-    tag: "Estate Planning",
-    title: "Wills and Estates",
+    tag: "Compliance",
+    title: "Compliance",
     image: imgEstatePlanning,
   },
 ];
@@ -73,7 +73,7 @@ const TreatmentsGrid = () => {
                 <span className="mb-1 inline-block rounded-full bg-secondary px-3 py-0.5 text-xs font-medium text-secondary-foreground">
                   {t.tag}
                 </span>
-                <p className="mt-1 text-xs text-muted-foreground">Sotshintshi Attorneys</p>
+                <p className="mt-1 text-xs text-muted-foreground">Moeti Kanyane Attorneys</p>
                 <h3 className="mt-1 font-heading text-lg font-semibold text-foreground">
                   {t.title}
                 </h3>

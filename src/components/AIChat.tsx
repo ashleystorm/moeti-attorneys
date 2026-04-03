@@ -61,7 +61,7 @@ const AIChat = ({ isOpen, onClose }: AIChatProps) => {
       id: "welcome",
       role: "assistant",
       content:
-        "Hello! I'm the Sotshintshi Attorneys AI assistant. How can I help you today? I can answer questions about our practice areas, booking a consultation, or anything else.",
+        "Hello! I'm the Moeti Kanyane Attorneys AI assistant. How can I help you today? I can answer questions about our practice areas, booking a consultation, or anything else.",
     },
   ]);
   const [input, setInput] = useState("");

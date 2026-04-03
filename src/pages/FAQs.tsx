@@ -20,7 +20,7 @@ const faqCategories = [
       },
       {
         q: "Where are your offices located?",
-        a: "We are located at 303 Eastwood St, Arcadia, Pretoria, 0001, South Africa. You can find directions on the map in our Contact section.",
+        a: "We are located at Second Floor, Building B, Westend Office Park, 250 Hall St, Die Hoewes, Centurion, 0046. You can find directions on the map in our Contact section.",
       },
       {
         q: "Do I need to book a consultation in advance?",
